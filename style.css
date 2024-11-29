@@ -1,0 +1,139 @@
+*
+{
+  margin: 0%;
+}
+
+body
+{
+  background-color: black;
+}
+
+.header
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 30vh;
+}
+.img
+{
+  width: 80%;
+  height: 50vh;
+}
+.colorText
+{
+  color: white;
+ display: flex;
+ margin-right: 20px;
+}
+
+.descrip
+{
+  position: absolute;
+  font-style:oblique;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin: 30px;
+
+}
+
+
+.information
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  color: white;
+
+}
+
+.linea
+{
+  margin: 18px;
+  margin-right: 14px;
+  width: 5px;
+  height: 60px;
+  background-color: #DF8F55;
+}
+
+.info
+{
+display: flex;
+flex-direction: column;
+margin-top: 4px;
+margin-right: 20px;
+}
+
+.labelInfo
+{
+  margin-top: 8px;
+}
+
+.main
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+
+}
+
+.from
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row
+{
+  width: 100%;
+  display: grid;
+}
+
+.rowSelect
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.labelSelect
+{
+  margin: 4px;
+}
+
+.imput
+{
+border-radius: 5px;
+height: 28px;
+}
+
+.button
+{
+  height: 28px;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color: brown;
+  border-bottom-style:groove;
+}
+

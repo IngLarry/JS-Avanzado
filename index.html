@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <title>LA ZONA</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+    <img  class="img" id="banner">
+    </div>
+    <div class="descrip">
+      <label class="colorText" id="enventname"></label>
+      <label class="colorText" id="companyname"></label>
+      <label class="colorText" id="descripti"></label>
+     </div>
+  </header>
+  <div class="information">
+    <div class="linea"></div>
+    <div class="info" >
+      <strong >¿Donde?</strong>
+      <label class="labelInfo" id="adressEvent"></label>
+    </div>
+    <div class="linea"></div>
+    <div class="info">
+      <strong>¿Cuando?</strong>
+      <label class="labelInfo"  id="dateEvent"> </label>
+    </div>
+  </div>
+
+  <main class="main">
+
+<div><p style="color: green; font-size: 25px;" id="responseMessage"></p></div>
+
+  <form action="" class="from" id="orderForm">
+    <h3 style="padding-top: 28px;">  ¡NO TE QUEDES SIN ENTRAR!  </h3>
+
+  <div class=" row" style="padding-top: 18PX;">
+    <label for="name"  style="color: black; margin-block: 12px;">Nombre completo</label>
+    <input class="imput" id="name" type="text" name="fullname"  placeholder="nombre completo" required>
+  </div>
+  <div class="row">
+    <label for="email" style="color: black; margin-block: 12px;">Correo electronico</label>
+    <input class="imput" id="email" type="email" name="email"  placeholder="Correo electronico" required>
+  </div>
+  <div class="row">
+    <label for="Repemail" style="color: black; margin-block: 12px;">Correo electronico</label>
+    <input class="imput" id="confirmedEmail" type="email" name="Repemail"  placeholder="Confirmar correo electronico" required>
+  </div>
+  <div class="rowSelect">
+    <label class="labelSelect" for="selec" style="color: black; margin-block: 12px;">Cantidad de entradas</label>
+    <select class="imput" for="selec" name="CanTickes" id="tickes" style="width: 40%;" required>
+    </select>
+  </div>
+  <div class="row">
+    <button class="button" type="submit"> comprar entradas </button>
+  </div>
+  </form>
+
+  </main>
+</body>
+</html>
